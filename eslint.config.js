@@ -3,7 +3,6 @@ import js from '@eslint/js';
 
 export default defineConfig([
   js.configs.recommended,
-  globalIgnores(['assets/**']),
   {
     rules: {
       semi: ['error', 'always'],
